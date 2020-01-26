@@ -3,10 +3,9 @@
 int main(int argc, char *argv[]) 
 {
     char str[5];
-    fgets(str, sizeof(str), stdin);
     
-    while(sprintf(str, sizeof(str), stdin)){
-        printf("%s", str);
+    while(fgets(str, sizeof(str), stdin)){
+        printf("%s", sizeof(str));
     }
 
     return 0;
