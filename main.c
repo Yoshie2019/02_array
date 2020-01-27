@@ -6,9 +6,9 @@ int main(int argc, char *argv[])
     
     while(fgets(str, sizeof(str), stdin)){
         
-        if(str < 0)
-            str[strlen(str) -1 ] = -1;
-        else
+        //if(str < 0)
+          //  str[strlen(str) -1 ] = '\0';
+        //else
             printf("%s", str);
     }
 
