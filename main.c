@@ -5,7 +5,7 @@ int main(int argc, char* argv[])
 	char str[5];
 	int n = 0, i;
 
-	FILE* Input1, * Input2, * Input3, * Output1, * Output2, * Output3;
+	FILE* Input1, * Input2, * Input3;
 
 	while (fgets(str, sizeof(str), stdin) != NULL) {
 
